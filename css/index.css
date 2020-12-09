@@ -11,6 +11,11 @@ body{
 
 header{
     box-shadow: 0 0 8px 0 black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
 }
 
 header *{
@@ -34,6 +39,12 @@ header nav{
 
 header nav ul li {
     margin: 0 20px;
+}
+
+main {
+    background-image: url(../img/bg.jpg);
+    height: 80vh;
+    padding-top:60px;
 }
 
 @media(min-width:769px){
